@@ -5,6 +5,8 @@
     --button-heading: hsl(0, 0%, 95%) ;
 }
 body{
+    overflow: hidden;
+    overflow-wrap: normal;
     font-size: 15px;
     background-color: white;
     color: white;
@@ -21,6 +23,7 @@ p{
     color: hsla(0, 0%, 100%, 0.75);
     font-family: 'Lexend Deca', sans-serif;
     font-weight: 400;
+    padding-bottom: 20px;
 }
 .card1,.card2,.card3{
     padding: 50px;
@@ -41,6 +44,7 @@ p{
     color: var(--button-heading);
     font-family: 'Big Shoulders Display';
     font-weight: 700;
+    font-size: 40px;
 }
 button{
     width: 150px;
