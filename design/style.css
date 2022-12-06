@@ -65,6 +65,9 @@ button:hover{
     color: var(--button-heading);
 }
 @media (max-width:475px) {
+    body{
+        overflow: scroll;
+    }
     main{
         flex-direction: column;
     }
