@@ -64,7 +64,7 @@ button:hover{
     background-color: transparent;
     color: var(--button-heading);
 }
-@media (max-width:375px) {
+@media (max-width:475px) {
     main{
         flex-direction: column;
     }
